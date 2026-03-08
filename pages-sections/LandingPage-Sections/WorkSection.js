@@ -24,7 +24,7 @@ export default function WorkSection() {
           <h4 className={classes.description}>
             Shankar Institute of Technology, Hata, Kushinagar.
             <br />
-            Phone: 9838580139
+            Phone: 9838580130
             <br />
             Main course: 6-month Diploma in Computer Applications (DCA) with
             practical training in Computer Fundamentals, Windows, MS Office,

@@ -36,8 +36,8 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               Phone:{" "}
-              <a href="tel:9838580139" className={classes.block}>
-                9838580139
+              <a href="tel:9838580130" className={classes.block}>
+                9838580130
               </a>
             </ListItem>
           </List>

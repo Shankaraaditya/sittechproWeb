@@ -43,11 +43,11 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="tel:9838580139"
+          href="tel:9838580130"
           color="primary"
           className={classes.navLink}
         >
-          Call: 9838580139
+          Call: 9838580130
         </Button>
       </ListItem>
     </List>
