@@ -18,16 +18,17 @@ const useStyles = makeStyles(styles);
 export default function ProductSection() {
   const classes = useStyles();
   return (
-    <div className={classes.section}>
+    <div id="about" className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Let{"'"}s talk product</h2>
+          <h2 className={classes.title}>Practical, Job-Oriented Computer Training</h2>
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
+            Shankar Institute of Technology offers a 6-month Diploma in Computer
+            Applications (DCA) designed especially for beginners and students from
+            small towns and villages. Our focus is on simple language, patient
+            teaching and maximum hands-on practice so that even students with no
+            prior computer knowledge can become confident using a PC for office and
+            professional work.
           </h5>
         </GridItem>
       </GridContainer>
@@ -35,8 +36,8 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Beginner-Friendly DCA Course"
+              description="Step-by-step training from basic computer fundamentals and Windows to MS Office, Tally, Photoshop and internet usage – perfect for students after 10th, 12th or college."
               icon={Chat}
               iconColor="info"
               vertical
@@ -44,8 +45,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Practical Lab Focus"
+              description="More time on the computer, less theory. Every topic is taught with real-life examples like office work, forms, reports, bills and simple designs."
               icon={VerifiedUser}
               iconColor="success"
               vertical
@@ -53,8 +54,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Affordable for Every Family"
+              description="Reasonable fees, flexible timing and guidance for job interviews so that students from economically weaker backgrounds can still build a strong digital foundation."
               icon={Fingerprint}
               iconColor="danger"
               vertical

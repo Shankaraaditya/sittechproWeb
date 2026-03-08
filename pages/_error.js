@@ -1,12 +1,3 @@
-import React, { Component } from "react";
-import Router from "next/router";
+import { HomePage } from "./index";
 
-export default class _error extends Component {
-  componentDidMount = () => {
-    Router.push("/components");
-  };
-
-  render() {
-    return <div />;
-  }
-}
+export default HomePage;

@@ -17,15 +17,18 @@ const useStyles = makeStyles(styles);
 export default function WorkSection() {
   const classes = useStyles();
   return (
-    <div className={classes.section}>
+    <div id="contact" className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Work with us</h2>
+          <h2 className={classes.title}>Contact & Admissions</h2>
           <h4 className={classes.description}>
-            Divide details about your product or agency work into parts. Write a
-            few lines about each one and contact us about any further
-            collaboration. We will responde get back to you in a couple of
-            hours.
+            Shankar Institute of Technology, Hata, Kushinagar.
+            <br />
+            Phone: 9838580139
+            <br />
+            Main course: 6-month Diploma in Computer Applications (DCA) with
+            practical training in Computer Fundamentals, Windows, MS Office,
+            Excel, Tally, Photoshop, PageMaker and Internet.
           </h4>
           <form>
             <GridContainer>

@@ -60,7 +60,10 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>NextJS Material Kit by Creative Tim</title>
+          <title>
+            Shankar Institute of Technology | DCA & Computer Training, Hata
+            Kushinagar
+          </title>
         </Head>
         <Component {...pageProps} />
       </React.Fragment>
